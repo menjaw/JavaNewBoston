@@ -37,15 +37,13 @@ public class IfStatement_10 {
         if (message.contains("shit")) {
             System.out.println("You typed: " + message);
             System.out.println("Watch your language");
-        } 
-        else if (message.contains("fuck")){
-        System.out.println("You typed: " + message);
+        } else if (message.contains("fuck")) {
+            System.out.println("You typed: " + message);
             System.out.println("Fuck yourself");
-        }
-        else {
+        } else {
             System.out.println("Good job");
         }
-
+        
     }
 
 }
